@@ -77,6 +77,22 @@
   }
 }
 
+/* Shiki Dual Theme Colors */
+html.dark .shiki,
+html.dark .shiki span {
+  color: var(--shiki-dark) !important;
+}
+
+pre.shiki {
+  padding: 1rem;
+  border-radius: 0.75rem;
+  font-size: 0.8125rem;
+  line-height: 1.5;
+  overflow-x: auto;
+  border: 1px solid hsl(var(--border));
+  background-color: hsl(var(--muted) / 0.3) !important;
+}
+
 @theme {
   --color-background: hsl(var(--background));
   --color-foreground: hsl(var(--foreground));
