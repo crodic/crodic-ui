@@ -1,7 +1,12 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import { RootProvider } from "fumadocs-ui/provider/next";
+import { TooltipProvider } from "@/components/ui/tooltip";
 import "./globals.css";
+import { Geist } from "next/font/google";
+import { cn } from "@/lib/utils";
+
+const geist = Geist({subsets:['latin'],variable:'--font-sans'});
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -23,12 +28,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en" suppressHydrationWarning className={cn("font-sans", geist.variable)}>
       <head>
         <meta name="color-scheme" content="light dark" />
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable} flex flex-col min-h-screen antialiased`}>
-        <RootProvider>{children}</RootProvider>
+        <RootProvider>
+          <TooltipProvider>{children}</TooltipProvider>
+        </RootProvider>
       </body>
     </html>
   );
