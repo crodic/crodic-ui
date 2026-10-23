@@ -15,6 +15,7 @@ export interface RegistryItem {
   devDependencies?: string[];
   registryDependencies?: string[];
   files: RegistryFile[];
+  categories?: string[];
 }
 
 export const baseComponents: RegistryItem[] = [

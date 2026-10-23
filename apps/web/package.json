@@ -7,7 +7,7 @@
     "dev": "next dev --port 3000",
     "build": "next build",
     "start": "next start",
-    "generate:docs": "tsx scripts/generate-shadcn-docs.mts",
+    "build:registry": "tsx scripts/build-registry.mts",
     "lint": "eslint --max-warnings 0",
     "check-types": "next typegen && tsc --noEmit"
   },

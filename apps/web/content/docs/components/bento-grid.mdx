@@ -1,0 +1,35 @@
+---
+title: Bento Grid
+description: A responsive bento grid layout component with smooth hover states and customizable items.
+---
+
+<ComponentPreview name="bento-grid-demo" />
+
+## Installation
+
+### CLI
+
+```bash
+npx shadcn@latest add https://crodic.dev/r/bento-grid.json
+```
+
+## Usage
+
+```tsx
+import { BentoGrid, BentoGridItem } from "@/components/ui/bento-grid";
+```
+
+```tsx
+<BentoGrid>
+  <BentoGridItem
+    title="Analytics"
+    description="Stream realtime metrics directly into your dashboard."
+    className="md:col-span-2"
+  />
+  <BentoGridItem
+    title="Security"
+    description="Enterprise grade protection."
+    className="md:col-span-1"
+  />
+</BentoGrid>
+```

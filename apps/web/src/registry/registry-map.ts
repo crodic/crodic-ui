@@ -2,6 +2,7 @@
 import * as React from "react";
 
 export const registryMap: Record<string, React.LazyExoticComponent<React.ComponentType<any>>> = {
+  "bento-grid-demo": React.lazy(() => import("@/registry/default/examples/bento-grid-demo")),
   "accordion-demo": React.lazy(() => import("@/registry/default/examples/accordion-demo")),
   "alert-demo": React.lazy(() => import("@/registry/default/examples/alert-demo")),
   "alert-dialog-demo": React.lazy(() => import("@/registry/default/examples/alert-dialog-demo")),

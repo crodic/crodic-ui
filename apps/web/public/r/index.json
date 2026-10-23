@@ -1,0 +1,729 @@
+[
+  {
+    "name": "bento-grid",
+    "type": "registry:ui",
+    "title": "Bento Grid",
+    "description": "A responsive bento grid layout component with animations and header previews.",
+    "dependencies": [
+      "lucide-react"
+    ],
+    "registryDependencies": [
+      "badge"
+    ]
+  },
+  {
+    "name": "accordion",
+    "type": "registry:ui",
+    "title": "Accordion",
+    "description": "Radix-based Accordion component.",
+    "dependencies": [
+      "radix-ui",
+      "class-variance-authority",
+      "lucide-react"
+    ]
+  },
+  {
+    "name": "alert-dialog",
+    "type": "registry:ui",
+    "title": "Alert Dialog",
+    "description": "Radix-based Alert Dialog component.",
+    "dependencies": [
+      "radix-ui",
+      "class-variance-authority",
+      "lucide-react"
+    ]
+  },
+  {
+    "name": "alert",
+    "type": "registry:ui",
+    "title": "Alert",
+    "description": "Radix-based Alert component.",
+    "dependencies": [
+      "radix-ui",
+      "class-variance-authority",
+      "lucide-react"
+    ]
+  },
+  {
+    "name": "aspect-ratio",
+    "type": "registry:ui",
+    "title": "Aspect Ratio",
+    "description": "Radix-based Aspect Ratio component.",
+    "dependencies": [
+      "radix-ui",
+      "class-variance-authority",
+      "lucide-react"
+    ]
+  },
+  {
+    "name": "attachment",
+    "type": "registry:ui",
+    "title": "Attachment",
+    "description": "Radix-based Attachment component.",
+    "dependencies": [
+      "radix-ui",
+      "class-variance-authority",
+      "lucide-react"
+    ]
+  },
+  {
+    "name": "avatar",
+    "type": "registry:ui",
+    "title": "Avatar",
+    "description": "Radix-based Avatar component.",
+    "dependencies": [
+      "radix-ui",
+      "class-variance-authority",
+      "lucide-react"
+    ]
+  },
+  {
+    "name": "badge",
+    "type": "registry:ui",
+    "title": "Badge",
+    "description": "Radix-based Badge component.",
+    "dependencies": [
+      "radix-ui",
+      "class-variance-authority",
+      "lucide-react"
+    ]
+  },
+  {
+    "name": "breadcrumb",
+    "type": "registry:ui",
+    "title": "Breadcrumb",
+    "description": "Radix-based Breadcrumb component.",
+    "dependencies": [
+      "radix-ui",
+      "class-variance-authority",
+      "lucide-react"
+    ]
+  },
+  {
+    "name": "bubble",
+    "type": "registry:ui",
+    "title": "Bubble",
+    "description": "Radix-based Bubble component.",
+    "dependencies": [
+      "radix-ui",
+      "class-variance-authority",
+      "lucide-react"
+    ]
+  },
+  {
+    "name": "button-group",
+    "type": "registry:ui",
+    "title": "Button Group",
+    "description": "Radix-based Button Group component.",
+    "dependencies": [
+      "radix-ui",
+      "class-variance-authority",
+      "lucide-react"
+    ]
+  },
+  {
+    "name": "button",
+    "type": "registry:ui",
+    "title": "Button",
+    "description": "Radix-based Button component.",
+    "dependencies": [
+      "radix-ui",
+      "class-variance-authority",
+      "lucide-react"
+    ]
+  },
+  {
+    "name": "calendar",
+    "type": "registry:ui",
+    "title": "Calendar",
+    "description": "Radix-based Calendar component.",
+    "dependencies": [
+      "radix-ui",
+      "class-variance-authority",
+      "lucide-react"
+    ]
+  },
+  {
+    "name": "card",
+    "type": "registry:ui",
+    "title": "Card",
+    "description": "Radix-based Card component.",
+    "dependencies": [
+      "radix-ui",
+      "class-variance-authority",
+      "lucide-react"
+    ]
+  },
+  {
+    "name": "carousel",
+    "type": "registry:ui",
+    "title": "Carousel",
+    "description": "Radix-based Carousel component.",
+    "dependencies": [
+      "radix-ui",
+      "class-variance-authority",
+      "lucide-react"
+    ]
+  },
+  {
+    "name": "chart",
+    "type": "registry:ui",
+    "title": "Chart",
+    "description": "Radix-based Chart component.",
+    "dependencies": [
+      "radix-ui",
+      "class-variance-authority",
+      "lucide-react"
+    ]
+  },
+  {
+    "name": "checkbox",
+    "type": "registry:ui",
+    "title": "Checkbox",
+    "description": "Radix-based Checkbox component.",
+    "dependencies": [
+      "radix-ui",
+      "class-variance-authority",
+      "lucide-react"
+    ]
+  },
+  {
+    "name": "code-block",
+    "type": "registry:ui",
+    "title": "Code Block",
+    "description": "Radix-based Code Block component.",
+    "dependencies": [
+      "radix-ui",
+      "class-variance-authority",
+      "lucide-react"
+    ]
+  },
+  {
+    "name": "collapsible",
+    "type": "registry:ui",
+    "title": "Collapsible",
+    "description": "Radix-based Collapsible component.",
+    "dependencies": [
+      "radix-ui",
+      "class-variance-authority",
+      "lucide-react"
+    ]
+  },
+  {
+    "name": "combobox",
+    "type": "registry:ui",
+    "title": "Combobox",
+    "description": "Radix-based Combobox component.",
+    "dependencies": [
+      "radix-ui",
+      "class-variance-authority",
+      "lucide-react"
+    ]
+  },
+  {
+    "name": "command",
+    "type": "registry:ui",
+    "title": "Command",
+    "description": "Radix-based Command component.",
+    "dependencies": [
+      "radix-ui",
+      "class-variance-authority",
+      "lucide-react"
+    ]
+  },
+  {
+    "name": "context-menu",
+    "type": "registry:ui",
+    "title": "Context Menu",
+    "description": "Radix-based Context Menu component.",
+    "dependencies": [
+      "radix-ui",
+      "class-variance-authority",
+      "lucide-react"
+    ]
+  },
+  {
+    "name": "dialog",
+    "type": "registry:ui",
+    "title": "Dialog",
+    "description": "Radix-based Dialog component.",
+    "dependencies": [
+      "radix-ui",
+      "class-variance-authority",
+      "lucide-react"
+    ]
+  },
+  {
+    "name": "direction",
+    "type": "registry:ui",
+    "title": "Direction",
+    "description": "Radix-based Direction component.",
+    "dependencies": [
+      "radix-ui",
+      "class-variance-authority",
+      "lucide-react"
+    ]
+  },
+  {
+    "name": "drawer",
+    "type": "registry:ui",
+    "title": "Drawer",
+    "description": "Radix-based Drawer component.",
+    "dependencies": [
+      "radix-ui",
+      "class-variance-authority",
+      "lucide-react"
+    ]
+  },
+  {
+    "name": "dropdown-menu",
+    "type": "registry:ui",
+    "title": "Dropdown Menu",
+    "description": "Radix-based Dropdown Menu component.",
+    "dependencies": [
+      "radix-ui",
+      "class-variance-authority",
+      "lucide-react"
+    ]
+  },
+  {
+    "name": "empty",
+    "type": "registry:ui",
+    "title": "Empty",
+    "description": "Radix-based Empty component.",
+    "dependencies": [
+      "radix-ui",
+      "class-variance-authority",
+      "lucide-react"
+    ]
+  },
+  {
+    "name": "field",
+    "type": "registry:ui",
+    "title": "Field",
+    "description": "Radix-based Field component.",
+    "dependencies": [
+      "radix-ui",
+      "class-variance-authority",
+      "lucide-react"
+    ]
+  },
+  {
+    "name": "form",
+    "type": "registry:ui",
+    "title": "Form",
+    "description": "Radix-based Form component.",
+    "dependencies": [
+      "radix-ui",
+      "class-variance-authority",
+      "lucide-react"
+    ]
+  },
+  {
+    "name": "hover-card",
+    "type": "registry:ui",
+    "title": "Hover Card",
+    "description": "Radix-based Hover Card component.",
+    "dependencies": [
+      "radix-ui",
+      "class-variance-authority",
+      "lucide-react"
+    ]
+  },
+  {
+    "name": "input-group",
+    "type": "registry:ui",
+    "title": "Input Group",
+    "description": "Radix-based Input Group component.",
+    "dependencies": [
+      "radix-ui",
+      "class-variance-authority",
+      "lucide-react"
+    ]
+  },
+  {
+    "name": "input-otp",
+    "type": "registry:ui",
+    "title": "Input Otp",
+    "description": "Radix-based Input Otp component.",
+    "dependencies": [
+      "radix-ui",
+      "class-variance-authority",
+      "lucide-react"
+    ]
+  },
+  {
+    "name": "input",
+    "type": "registry:ui",
+    "title": "Input",
+    "description": "Radix-based Input component.",
+    "dependencies": [
+      "radix-ui",
+      "class-variance-authority",
+      "lucide-react"
+    ]
+  },
+  {
+    "name": "item",
+    "type": "registry:ui",
+    "title": "Item",
+    "description": "Radix-based Item component.",
+    "dependencies": [
+      "radix-ui",
+      "class-variance-authority",
+      "lucide-react"
+    ]
+  },
+  {
+    "name": "kbd",
+    "type": "registry:ui",
+    "title": "Kbd",
+    "description": "Radix-based Kbd component.",
+    "dependencies": [
+      "radix-ui",
+      "class-variance-authority",
+      "lucide-react"
+    ]
+  },
+  {
+    "name": "label",
+    "type": "registry:ui",
+    "title": "Label",
+    "description": "Radix-based Label component.",
+    "dependencies": [
+      "radix-ui",
+      "class-variance-authority",
+      "lucide-react"
+    ]
+  },
+  {
+    "name": "marker",
+    "type": "registry:ui",
+    "title": "Marker",
+    "description": "Radix-based Marker component.",
+    "dependencies": [
+      "radix-ui",
+      "class-variance-authority",
+      "lucide-react"
+    ]
+  },
+  {
+    "name": "menubar",
+    "type": "registry:ui",
+    "title": "Menubar",
+    "description": "Radix-based Menubar component.",
+    "dependencies": [
+      "radix-ui",
+      "class-variance-authority",
+      "lucide-react"
+    ]
+  },
+  {
+    "name": "message-scroller",
+    "type": "registry:ui",
+    "title": "Message Scroller",
+    "description": "Radix-based Message Scroller component.",
+    "dependencies": [
+      "radix-ui",
+      "class-variance-authority",
+      "lucide-react"
+    ]
+  },
+  {
+    "name": "message",
+    "type": "registry:ui",
+    "title": "Message",
+    "description": "Radix-based Message component.",
+    "dependencies": [
+      "radix-ui",
+      "class-variance-authority",
+      "lucide-react"
+    ]
+  },
+  {
+    "name": "native-select",
+    "type": "registry:ui",
+    "title": "Native Select",
+    "description": "Radix-based Native Select component.",
+    "dependencies": [
+      "radix-ui",
+      "class-variance-authority",
+      "lucide-react"
+    ]
+  },
+  {
+    "name": "navigation-menu",
+    "type": "registry:ui",
+    "title": "Navigation Menu",
+    "description": "Radix-based Navigation Menu component.",
+    "dependencies": [
+      "radix-ui",
+      "class-variance-authority",
+      "lucide-react"
+    ]
+  },
+  {
+    "name": "pagination",
+    "type": "registry:ui",
+    "title": "Pagination",
+    "description": "Radix-based Pagination component.",
+    "dependencies": [
+      "radix-ui",
+      "class-variance-authority",
+      "lucide-react"
+    ]
+  },
+  {
+    "name": "popover",
+    "type": "registry:ui",
+    "title": "Popover",
+    "description": "Radix-based Popover component.",
+    "dependencies": [
+      "radix-ui",
+      "class-variance-authority",
+      "lucide-react"
+    ]
+  },
+  {
+    "name": "progress",
+    "type": "registry:ui",
+    "title": "Progress",
+    "description": "Radix-based Progress component.",
+    "dependencies": [
+      "radix-ui",
+      "class-variance-authority",
+      "lucide-react"
+    ]
+  },
+  {
+    "name": "questionnaire",
+    "type": "registry:ui",
+    "title": "Questionnaire",
+    "description": "Radix-based Questionnaire component.",
+    "dependencies": [
+      "radix-ui",
+      "class-variance-authority",
+      "lucide-react"
+    ]
+  },
+  {
+    "name": "radio-group",
+    "type": "registry:ui",
+    "title": "Radio Group",
+    "description": "Radix-based Radio Group component.",
+    "dependencies": [
+      "radix-ui",
+      "class-variance-authority",
+      "lucide-react"
+    ]
+  },
+  {
+    "name": "resizable",
+    "type": "registry:ui",
+    "title": "Resizable",
+    "description": "Radix-based Resizable component.",
+    "dependencies": [
+      "radix-ui",
+      "class-variance-authority",
+      "lucide-react"
+    ]
+  },
+  {
+    "name": "scroll-area",
+    "type": "registry:ui",
+    "title": "Scroll Area",
+    "description": "Radix-based Scroll Area component.",
+    "dependencies": [
+      "radix-ui",
+      "class-variance-authority",
+      "lucide-react"
+    ]
+  },
+  {
+    "name": "select",
+    "type": "registry:ui",
+    "title": "Select",
+    "description": "Radix-based Select component.",
+    "dependencies": [
+      "radix-ui",
+      "class-variance-authority",
+      "lucide-react"
+    ]
+  },
+  {
+    "name": "separator",
+    "type": "registry:ui",
+    "title": "Separator",
+    "description": "Radix-based Separator component.",
+    "dependencies": [
+      "radix-ui",
+      "class-variance-authority",
+      "lucide-react"
+    ]
+  },
+  {
+    "name": "sheet",
+    "type": "registry:ui",
+    "title": "Sheet",
+    "description": "Radix-based Sheet component.",
+    "dependencies": [
+      "radix-ui",
+      "class-variance-authority",
+      "lucide-react"
+    ]
+  },
+  {
+    "name": "sidebar",
+    "type": "registry:ui",
+    "title": "Sidebar",
+    "description": "Radix-based Sidebar component.",
+    "dependencies": [
+      "radix-ui",
+      "class-variance-authority",
+      "lucide-react"
+    ]
+  },
+  {
+    "name": "skeleton",
+    "type": "registry:ui",
+    "title": "Skeleton",
+    "description": "Radix-based Skeleton component.",
+    "dependencies": [
+      "radix-ui",
+      "class-variance-authority",
+      "lucide-react"
+    ]
+  },
+  {
+    "name": "slider",
+    "type": "registry:ui",
+    "title": "Slider",
+    "description": "Radix-based Slider component.",
+    "dependencies": [
+      "radix-ui",
+      "class-variance-authority",
+      "lucide-react"
+    ]
+  },
+  {
+    "name": "sonner",
+    "type": "registry:ui",
+    "title": "Sonner",
+    "description": "Radix-based Sonner component.",
+    "dependencies": [
+      "radix-ui",
+      "class-variance-authority",
+      "lucide-react"
+    ]
+  },
+  {
+    "name": "spinner",
+    "type": "registry:ui",
+    "title": "Spinner",
+    "description": "Radix-based Spinner component.",
+    "dependencies": [
+      "radix-ui",
+      "class-variance-authority",
+      "lucide-react"
+    ]
+  },
+  {
+    "name": "switch",
+    "type": "registry:ui",
+    "title": "Switch",
+    "description": "Radix-based Switch component.",
+    "dependencies": [
+      "radix-ui",
+      "class-variance-authority",
+      "lucide-react"
+    ]
+  },
+  {
+    "name": "table",
+    "type": "registry:ui",
+    "title": "Table",
+    "description": "Radix-based Table component.",
+    "dependencies": [
+      "radix-ui",
+      "class-variance-authority",
+      "lucide-react"
+    ]
+  },
+  {
+    "name": "tabs",
+    "type": "registry:ui",
+    "title": "Tabs",
+    "description": "Radix-based Tabs component.",
+    "dependencies": [
+      "radix-ui",
+      "class-variance-authority",
+      "lucide-react"
+    ]
+  },
+  {
+    "name": "textarea",
+    "type": "registry:ui",
+    "title": "Textarea",
+    "description": "Radix-based Textarea component.",
+    "dependencies": [
+      "radix-ui",
+      "class-variance-authority",
+      "lucide-react"
+    ]
+  },
+  {
+    "name": "toast",
+    "type": "registry:ui",
+    "title": "Toast",
+    "description": "Radix-based Toast component.",
+    "dependencies": [
+      "radix-ui",
+      "class-variance-authority",
+      "lucide-react"
+    ]
+  },
+  {
+    "name": "toggle-group",
+    "type": "registry:ui",
+    "title": "Toggle Group",
+    "description": "Radix-based Toggle Group component.",
+    "dependencies": [
+      "radix-ui",
+      "class-variance-authority",
+      "lucide-react"
+    ]
+  },
+  {
+    "name": "toggle",
+    "type": "registry:ui",
+    "title": "Toggle",
+    "description": "Radix-based Toggle component.",
+    "dependencies": [
+      "radix-ui",
+      "class-variance-authority",
+      "lucide-react"
+    ]
+  },
+  {
+    "name": "tooltip",
+    "type": "registry:ui",
+    "title": "Tooltip",
+    "description": "Radix-based Tooltip component.",
+    "dependencies": [
+      "radix-ui",
+      "class-variance-authority",
+      "lucide-react"
+    ]
+  },
+  {
+    "name": "trace",
+    "type": "registry:ui",
+    "title": "Trace",
+    "description": "Radix-based Trace component.",
+    "dependencies": [
+      "radix-ui",
+      "class-variance-authority",
+      "lucide-react"
+    ]
+  }
+]

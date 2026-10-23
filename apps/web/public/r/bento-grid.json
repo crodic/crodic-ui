@@ -1,0 +1,22 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "bento-grid",
+  "type": "registry:ui",
+  "title": "Bento Grid",
+  "description": "A responsive bento grid layout component with animations and header previews.",
+  "dependencies": [
+    "lucide-react"
+  ],
+  "devDependencies": [],
+  "registryDependencies": [
+    "badge"
+  ],
+  "files": [
+    {
+      "path": "ui/bento-grid.tsx",
+      "content": "import * as React from \"react\";\nimport { cn } from \"@/lib/utils\";\n\nexport interface BentoGridProps extends React.HTMLAttributes<HTMLDivElement> {\n  children?: React.ReactNode;\n}\n\nexport function BentoGrid({ className, children, ...props }: BentoGridProps) {\n  return (\n    <div\n      className={cn(\n        \"grid w-full auto-rows-[20rem] grid-cols-1 md:grid-cols-3 gap-4 max-w-7xl mx-auto\",\n        className\n      )}\n      {...props}\n    >\n      {children}\n    </div>\n  );\n}\n\nexport interface BentoGridItemProps extends Omit<React.HTMLAttributes<HTMLDivElement>, \"title\"> {\n  title?: string | React.ReactNode;\n  description?: string | React.ReactNode;\n  header?: React.ReactNode;\n  icon?: React.ReactNode;\n  badge?: React.ReactNode;\n}\n\nexport function BentoGridItem({\n  className,\n  title,\n  description,\n  header,\n  icon,\n  badge,\n  children,\n  ...props\n}: BentoGridItemProps) {\n  return (\n    <div\n      className={cn(\n        \"row-span-1 rounded-2xl group/bento hover:shadow-xl transition-all duration-300 p-6 bg-card border border-border/80 flex flex-col justify-between space-y-4 hover:border-primary/50 relative overflow-hidden\",\n        className\n      )}\n      {...props}\n    >\n      {badge && <div className=\"absolute top-4 right-4 z-10\">{badge}</div>}\n      {header && <div className=\"flex flex-1 w-full h-full min-h-[6rem] rounded-xl overflow-hidden\">{header}</div>}\n      <div className=\"transition-transform duration-200 group-hover/bento:translate-x-1\">\n        {icon && <div className=\"text-primary mb-2 flex items-center\">{icon}</div>}\n        {title && <div className=\"font-semibold text-foreground tracking-tight text-lg mb-1\">{title}</div>}\n        {description && <div className=\"text-sm text-muted-foreground line-clamp-2\">{description}</div>}\n      </div>\n      {children}\n    </div>\n  );\n}\n",
+      "type": "registry:ui",
+      "target": "components/ui/bento-grid.tsx"
+    }
+  ]
+}
