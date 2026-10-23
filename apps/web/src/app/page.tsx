@@ -2,6 +2,7 @@ import Link from "next/link";
 import { ArrowRight, Code, Sparkles, Terminal } from "lucide-react";
 
 export default function Home() {
+  const appUrl = process.env.NEXT_PUBLIC_APP_URL || "https://crodic.dev";
   return (
     <div className="flex flex-col min-h-screen">
       <header className="border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 sticky top-0 z-50">
@@ -65,7 +66,7 @@ export default function Home() {
         <div className="w-full max-w-xl mx-auto p-4 rounded-xl border border-border bg-muted/30 font-mono text-sm text-left flex items-center justify-between gap-4">
           <div className="flex items-center gap-2 overflow-x-auto text-muted-foreground">
             <Terminal className="w-4 h-4 shrink-0 text-primary" />
-            <span>npx shadcn@latest add https://crodic.dev/r/button.json</span>
+            <span>npx shadcn@latest add {appUrl}/r/button.json</span>
           </div>
         </div>
       </main>

@@ -33,8 +33,10 @@ export function ComponentPreviewClient({ name, code, highlightedCode }: Componen
     setTimeout(() => setCopiedCode(false), 2000);
   };
 
+  const appUrl = process.env.NEXT_PUBLIC_APP_URL || "https://crodic.dev";
+
   const handleCopyCli = () => {
-    navigator.clipboard.writeText(`npx shadcn@latest add https://crodic.dev/r/${rawName}.json`);
+    navigator.clipboard.writeText(`npx shadcn@latest add ${appUrl}/r/${rawName}.json`);
     setCopiedCli(true);
     setTimeout(() => setCopiedCli(false), 2000);
   };
