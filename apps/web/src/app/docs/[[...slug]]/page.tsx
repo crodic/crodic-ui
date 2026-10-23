@@ -33,7 +33,7 @@ export default async function Page(props: {
         </div>
 
         {/* MDX Body */}
-        <div className="prose prose-neutral dark:prose-invert max-w-none">
+        <div className="w-full">
           <MDX components={mdxComponents} />
         </div>
 

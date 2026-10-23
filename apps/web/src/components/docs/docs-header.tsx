@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { Search } from "lucide-react";
 import { ModeToggle } from "@/components/mode-toggle";
 import { Button } from "@/components/ui/button";
 import { SidebarTrigger } from "@/components/ui/sidebar";
@@ -13,7 +14,7 @@ export function DocsHeader() {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="flex h-14 w-full items-center px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center gap-2 mr-4">
+        <div className="flex items-center gap-2 mr-6">
           <SidebarTrigger className="lg:hidden mr-1" />
           <Link href="/" className="flex items-center gap-2 font-bold text-base tracking-tight">
             <span className="w-6 h-6 rounded-md bg-primary text-primary-foreground flex items-center justify-center text-xs font-black shadow-xs">
@@ -28,7 +29,7 @@ export function DocsHeader() {
             href="/docs"
             className={cn(
               "transition-colors hover:text-foreground",
-              pathname === "/docs" ? "text-foreground" : "text-muted-foreground"
+              pathname === "/docs" ? "text-foreground font-semibold" : "text-muted-foreground"
             )}
           >
             Documentation
@@ -37,7 +38,7 @@ export function DocsHeader() {
             href="/docs/base-ui/button"
             className={cn(
               "transition-colors hover:text-foreground",
-              pathname.startsWith("/docs/base-ui") ? "text-foreground" : "text-muted-foreground"
+              pathname.startsWith("/docs/base-ui") ? "text-foreground font-semibold" : "text-muted-foreground"
             )}
           >
             Components
@@ -46,14 +47,32 @@ export function DocsHeader() {
             href="/docs/components/bento-grid"
             className={cn(
               "transition-colors hover:text-foreground",
-              pathname.startsWith("/docs/components") ? "text-foreground" : "text-muted-foreground"
+              pathname.startsWith("/docs/components") ? "text-foreground font-semibold" : "text-muted-foreground"
             )}
           >
             Blocks
           </Link>
         </nav>
 
-        <div className="ml-auto flex items-center gap-2">
+        <div className="ml-auto flex items-center gap-3">
+          {/* Search Trigger Button styled like shadcn */}
+          <button
+            type="button"
+            className="hidden sm:inline-flex items-center gap-2 px-3 py-1.5 text-xs text-muted-foreground bg-muted/50 hover:bg-muted border border-border rounded-lg transition-colors w-48 md:w-64 justify-between"
+            onClick={() => {
+              const firstInput = document.querySelector<HTMLInputElement>("input");
+              firstInput?.focus();
+            }}
+          >
+            <span className="inline-flex items-center gap-1.5">
+              <Search className="w-3.5 h-3.5 text-muted-foreground" />
+              <span>Search components...</span>
+            </span>
+            <kbd className="pointer-events-none inline-flex h-4.5 select-none items-center gap-1 rounded border border-border bg-background px-1.5 font-mono text-[10px] font-medium text-muted-foreground">
+              <span className="text-xs">⌘</span>K
+            </kbd>
+          </button>
+
           <Button variant="ghost" size="icon" asChild className="h-9 w-9 text-muted-foreground hover:text-foreground">
             <a
               href="https://github.com/phat-nguyen-dev/crodic-ui"
@@ -78,6 +97,7 @@ export function DocsHeader() {
               <span className="sr-only">GitHub</span>
             </a>
           </Button>
+
           <ModeToggle />
         </div>
       </div>
