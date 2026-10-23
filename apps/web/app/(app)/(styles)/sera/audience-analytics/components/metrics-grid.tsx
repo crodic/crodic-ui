@@ -7,7 +7,7 @@ import {
   CardDescription,
   CardHeader,
   CardTitle,
-} from "@/styles/base-sera/ui/card"
+} from "@/styles/base-nova/ui/card"
 
 type Metric = {
   label: string

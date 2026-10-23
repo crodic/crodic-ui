@@ -24,7 +24,7 @@ import {
   ItemContent,
   ItemDescription,
 } from "@/registry/bases/radix/ui/item"
-import { useDesignSystemSearchParams } from "@/app/(app)/create/lib/search-params"
+import { useDesignSystemSearchParams } from "@/app/(create)/lib/search-params"
 
 const chartData = [
   { month: "Dec", amount: 800 },

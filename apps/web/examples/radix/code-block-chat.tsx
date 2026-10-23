@@ -1,7 +1,7 @@
 "use client"
 
 import { useHighlightedCode } from "@/registry/bases/radix/hooks/use-highlighted-code"
-import { Bubble, BubbleContent } from "@/styles/radix-rhea/ui/bubble"
+import { Bubble, BubbleContent } from "@/styles/radix-nova/ui/bubble"
 import {
   CodeBlock,
   CodeBlockActions,
@@ -10,8 +10,8 @@ import {
   CodeBlockHeader,
   CodeBlockLine,
   CodeBlockTitle,
-} from "@/styles/radix-rhea/ui/code-block"
-import { Message, MessageContent } from "@/styles/radix-rhea/ui/message"
+} from "@/styles/radix-nova/ui/code-block"
+import { Message, MessageContent } from "@/styles/radix-nova/ui/message"
 
 const code = `import { streamText } from "ai"
 

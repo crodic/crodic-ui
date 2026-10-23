@@ -9,18 +9,18 @@ import {
   VideoIcon,
 } from "lucide-react"
 
-import { Badge } from "@/styles/base-sera/ui/badge"
+import { Badge } from "@/styles/base-nova/ui/badge"
 import {
   Card,
   CardContent,
   CardFooter,
   CardHeader,
-} from "@/styles/base-sera/ui/card"
+} from "@/styles/base-nova/ui/card"
 import {
   InputGroup,
   InputGroupAddon,
   InputGroupInput,
-} from "@/styles/base-sera/ui/input-group"
+} from "@/styles/base-nova/ui/input-group"
 import {
   Pagination,
   PaginationContent,
@@ -28,7 +28,7 @@ import {
   PaginationLink,
   PaginationNext,
   PaginationPrevious,
-} from "@/styles/base-sera/ui/pagination"
+} from "@/styles/base-nova/ui/pagination"
 
 import { ASSETS, type Asset, type AssetType } from "../data"
 

@@ -9,7 +9,7 @@ import {
   PageHeaderDescription,
   PageHeaderHeading,
 } from "@/components/page-header"
-import { Button } from "@/styles/radix-luma/ui/button"
+import { Button } from "@/styles/radix-nova/ui/button"
 
 const title = "Tailwind Colors in Every Format"
 const description =

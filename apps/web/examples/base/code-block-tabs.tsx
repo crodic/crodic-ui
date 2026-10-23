@@ -9,13 +9,13 @@ import {
   CodeBlockHeader,
   CodeBlockLine,
   CodeBlockTitle,
-} from "@/styles/base-rhea/ui/code-block"
+} from "@/styles/base-nova/ui/code-block"
 import {
   Tabs,
   TabsContent,
   TabsList,
   TabsTrigger,
-} from "@/styles/base-rhea/ui/tabs"
+} from "@/styles/base-nova/ui/tabs"
 
 const files = [
   {

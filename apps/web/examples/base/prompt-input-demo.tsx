@@ -16,7 +16,7 @@ import {
   AttachmentContent,
   AttachmentMedia,
   AttachmentTitle,
-} from "@/styles/base-rhea/ui/attachment"
+} from "@/styles/base-nova/ui/attachment"
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -26,13 +26,13 @@ import {
   DropdownMenuRadioItem,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from "@/styles/base-rhea/ui/dropdown-menu"
+} from "@/styles/base-nova/ui/dropdown-menu"
 import {
   InputGroup,
   InputGroupAddon,
   InputGroupButton,
   InputGroupTextarea,
-} from "@/styles/base-rhea/ui/input-group"
+} from "@/styles/base-nova/ui/input-group"
 
 type AttachmentFile = {
   id: string

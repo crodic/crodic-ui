@@ -3,7 +3,7 @@
 import * as React from "react"
 import { ArrowDownIcon, MoreHorizontalIcon } from "lucide-react"
 
-import { Button } from "@/styles/base-sera/ui/button"
+import { Button } from "@/styles/base-nova/ui/button"
 import {
   Card,
   CardContent,
@@ -11,14 +11,14 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from "@/styles/base-sera/ui/card"
+} from "@/styles/base-nova/ui/card"
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from "@/styles/base-sera/ui/dropdown-menu"
-import { Spinner } from "@/styles/base-sera/ui/spinner"
+} from "@/styles/base-nova/ui/dropdown-menu"
+import { Spinner } from "@/styles/base-nova/ui/spinner"
 import {
   Table,
   TableBody,
@@ -26,11 +26,11 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from "@/styles/base-sera/ui/table"
+} from "@/styles/base-nova/ui/table"
 import {
   ToggleGroup,
   ToggleGroupItem,
-} from "@/styles/base-sera/ui/toggle-group"
+} from "@/styles/base-nova/ui/toggle-group"
 
 type EditorialMetric = "views" | "time" | "shares"
 

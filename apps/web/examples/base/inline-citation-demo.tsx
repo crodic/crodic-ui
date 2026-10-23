@@ -1,11 +1,11 @@
 "use client"
 
-import { Button } from "@/styles/base-rhea/ui/button"
+import { Button } from "@/styles/base-nova/ui/button"
 import {
   HoverCard,
   HoverCardContent,
   HoverCardTrigger,
-} from "@/styles/base-rhea/ui/hover-card"
+} from "@/styles/base-nova/ui/hover-card"
 
 type Source = {
   url: string

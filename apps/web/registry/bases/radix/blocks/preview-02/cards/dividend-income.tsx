@@ -24,7 +24,7 @@ import {
   ItemGroup,
   ItemTitle,
 } from "@/registry/bases/radix/ui/item"
-import { useDesignSystemSearchParams } from "@/app/(app)/create/lib/search-params"
+import { useDesignSystemSearchParams } from "@/app/(create)/lib/search-params"
 import { IconPlaceholder } from "@/app/(create)/components/icon-placeholder"
 
 const HOLDINGS = [

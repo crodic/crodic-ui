@@ -11,7 +11,7 @@ import {
 } from "@/components/page-header"
 import { PageNav } from "@/components/page-nav"
 import { ThemeSelector } from "@/components/theme-selector"
-import { Button } from "@/styles/radix-luma/ui/button"
+import { Button } from "@/styles/radix-nova/ui/button"
 
 export const dynamic = "force-static"
 export const revalidate = false

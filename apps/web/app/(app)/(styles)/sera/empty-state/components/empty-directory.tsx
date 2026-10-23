@@ -1,8 +1,8 @@
 import { FileTextIcon, PlusIcon } from "lucide-react"
 
-import { Badge } from "@/styles/base-sera/ui/badge"
-import { Button } from "@/styles/base-sera/ui/button"
-import { Card, CardContent } from "@/styles/base-sera/ui/card"
+import { Badge } from "@/styles/base-nova/ui/badge"
+import { Button } from "@/styles/base-nova/ui/button"
+import { Card, CardContent } from "@/styles/base-nova/ui/card"
 import {
   Empty,
   EmptyContent,
@@ -10,8 +10,8 @@ import {
   EmptyHeader,
   EmptyMedia,
   EmptyTitle,
-} from "@/styles/base-sera/ui/empty"
-import { Separator } from "@/styles/base-sera/ui/separator"
+} from "@/styles/base-nova/ui/empty"
+import { Separator } from "@/styles/base-nova/ui/separator"
 
 type Stage = {
   id: string

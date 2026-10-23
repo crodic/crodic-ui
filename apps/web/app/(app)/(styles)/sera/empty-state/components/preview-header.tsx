@@ -5,8 +5,8 @@ import {
   BreadcrumbItem,
   BreadcrumbLink,
   BreadcrumbList,
-} from "@/styles/base-sera/ui/breadcrumb"
-import { Button } from "@/styles/base-sera/ui/button"
+} from "@/styles/base-nova/ui/breadcrumb"
+import { Button } from "@/styles/base-nova/ui/button"
 
 export function PreviewHeader() {
   return (

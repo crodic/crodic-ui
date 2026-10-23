@@ -5,16 +5,16 @@ import { addDays, format } from "date-fns"
 import { CalendarIcon, FilterIcon, XIcon } from "lucide-react"
 import { type DateRange } from "react-day-picker"
 
-import { Button } from "@/styles/base-sera/ui/button"
-import { Calendar } from "@/styles/base-sera/ui/calendar"
+import { Button } from "@/styles/base-nova/ui/button"
+import { Calendar } from "@/styles/base-nova/ui/calendar"
 import {
   Card,
   CardContent,
   CardFooter,
   CardHeader,
   CardTitle,
-} from "@/styles/base-sera/ui/card"
-import { Checkbox } from "@/styles/base-sera/ui/checkbox"
+} from "@/styles/base-nova/ui/card"
+import { Checkbox } from "@/styles/base-nova/ui/checkbox"
 import {
   Combobox,
   ComboboxChip,
@@ -26,21 +26,21 @@ import {
   ComboboxList,
   ComboboxValue,
   useComboboxAnchor,
-} from "@/styles/base-sera/ui/combobox"
+} from "@/styles/base-nova/ui/combobox"
 import {
   Field,
   FieldGroup,
   FieldLabel,
   FieldLegend,
   FieldSet,
-} from "@/styles/base-sera/ui/field"
+} from "@/styles/base-nova/ui/field"
 import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from "@/styles/base-sera/ui/popover"
-import { RadioGroup, RadioGroupItem } from "@/styles/base-sera/ui/radio-group"
-import { Slider } from "@/styles/base-sera/ui/slider"
+} from "@/styles/base-nova/ui/popover"
+import { RadioGroup, RadioGroupItem } from "@/styles/base-nova/ui/radio-group"
+import { Slider } from "@/styles/base-nova/ui/slider"
 
 const FILE_TYPES = [
   {

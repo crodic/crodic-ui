@@ -2,7 +2,7 @@
 
 import * as React from "react"
 
-import { Separator } from "@/styles/base-sera/ui/separator"
+import { Separator } from "@/styles/base-nova/ui/separator"
 
 import { AssetDetails } from "./components/asset-details"
 import { AssetGrid } from "./components/asset-grid"

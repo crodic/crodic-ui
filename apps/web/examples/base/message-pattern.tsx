@@ -11,18 +11,18 @@ import {
 } from "lucide-react"
 
 import { Markdown } from "@/components/markdown"
-import { Bubble, BubbleContent } from "@/styles/base-rhea/ui/bubble"
-import { Button } from "@/styles/base-rhea/ui/button"
+import { Bubble, BubbleContent } from "@/styles/base-nova/ui/bubble"
+import { Button } from "@/styles/base-nova/ui/button"
 import {
   Message,
   MessageContent,
   MessageFooter,
-} from "@/styles/base-rhea/ui/message"
+} from "@/styles/base-nova/ui/message"
 import {
   Tooltip,
   TooltipContent,
   TooltipTrigger,
-} from "@/styles/base-rhea/ui/tooltip"
+} from "@/styles/base-nova/ui/tooltip"
 
 const reply = `Install Dialog, then open it from the gear button in \`site-header.tsx\`.
 

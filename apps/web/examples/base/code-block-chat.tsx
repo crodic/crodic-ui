@@ -1,7 +1,7 @@
 "use client"
 
 import { useHighlightedCode } from "@/registry/bases/base/hooks/use-highlighted-code"
-import { Bubble, BubbleContent } from "@/styles/base-rhea/ui/bubble"
+import { Bubble, BubbleContent } from "@/styles/base-nova/ui/bubble"
 import {
   CodeBlock,
   CodeBlockActions,
@@ -10,8 +10,8 @@ import {
   CodeBlockHeader,
   CodeBlockLine,
   CodeBlockTitle,
-} from "@/styles/base-rhea/ui/code-block"
-import { Message, MessageContent } from "@/styles/base-rhea/ui/message"
+} from "@/styles/base-nova/ui/code-block"
+import { Message, MessageContent } from "@/styles/base-nova/ui/message"
 
 const code = `import { streamText } from "ai"
 

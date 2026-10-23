@@ -4,7 +4,7 @@ import * as React from "react"
 import { RotateCcwIcon } from "lucide-react"
 
 import { useHighlightedCode } from "@/registry/bases/radix/hooks/use-highlighted-code"
-import { Button } from "@/styles/radix-rhea/ui/button"
+import { Button } from "@/styles/radix-nova/ui/button"
 import {
   CodeBlock,
   CodeBlockActions,
@@ -13,7 +13,7 @@ import {
   CodeBlockHeader,
   CodeBlockLine,
   CodeBlockTitle,
-} from "@/styles/radix-rhea/ui/code-block"
+} from "@/styles/radix-nova/ui/code-block"
 
 const blocks: {
   title?: string

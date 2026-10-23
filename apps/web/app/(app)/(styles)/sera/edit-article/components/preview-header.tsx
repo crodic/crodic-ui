@@ -1,14 +1,14 @@
 import { ArrowLeftIcon, ExternalLinkIcon } from "lucide-react"
 
-import { Badge } from "@/styles/base-sera/ui/badge"
+import { Badge } from "@/styles/base-nova/ui/badge"
 import {
   Breadcrumb,
   BreadcrumbItem,
   BreadcrumbLink,
   BreadcrumbList,
-} from "@/styles/base-sera/ui/breadcrumb"
-import { Button } from "@/styles/base-sera/ui/button"
-import { ButtonGroup } from "@/styles/base-sera/ui/button-group"
+} from "@/styles/base-nova/ui/breadcrumb"
+import { Button } from "@/styles/base-nova/ui/button"
+import { ButtonGroup } from "@/styles/base-nova/ui/button-group"
 
 export function PreviewHeader() {
   return (

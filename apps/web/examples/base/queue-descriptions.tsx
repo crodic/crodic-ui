@@ -13,7 +13,7 @@ import {
   TraceIcon,
   TraceLine,
   TraceTitle,
-} from "@/styles/base-rhea/ui/trace"
+} from "@/styles/base-nova/ui/trace"
 
 const todos: { title: string; description?: string; done: boolean }[] = [
   {

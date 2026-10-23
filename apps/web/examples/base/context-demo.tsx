@@ -1,12 +1,12 @@
 "use client"
 
-import { Button } from "@/styles/base-rhea/ui/button"
+import { Button } from "@/styles/base-nova/ui/button"
 import {
   HoverCard,
   HoverCardContent,
   HoverCardTrigger,
-} from "@/styles/base-rhea/ui/hover-card"
-import { Progress } from "@/styles/base-rhea/ui/progress"
+} from "@/styles/base-nova/ui/hover-card"
+import { Progress } from "@/styles/base-nova/ui/progress"
 
 const usage = {
   input: 8420,

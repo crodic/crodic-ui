@@ -1,6 +1,6 @@
 import { CheckIcon, FlaskConicalIcon, XIcon } from "lucide-react"
 
-import { CodeBlock, CodeBlockContent } from "@/styles/base-rhea/ui/code-block"
+import { CodeBlock, CodeBlockContent } from "@/styles/base-nova/ui/code-block"
 import {
   Trace,
   TraceCollapsible,
@@ -9,7 +9,7 @@ import {
   TraceIcon,
   TraceLine,
   TraceTitle,
-} from "@/styles/base-rhea/ui/trace"
+} from "@/styles/base-nova/ui/trace"
 
 const tests: { name: string; error?: string }[] = [
   { name: "formats a price in USD" },

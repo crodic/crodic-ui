@@ -9,7 +9,7 @@ import {
   CardDescription,
   CardHeader,
   CardTitle,
-} from "@/styles/base-sera/ui/card"
+} from "@/styles/base-nova/ui/card"
 
 const TrafficOverviewContent = dynamic(
   () => import("./traffic-overview").then((mod) => mod.TrafficOverview),

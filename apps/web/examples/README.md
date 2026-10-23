@@ -47,6 +47,6 @@ pnpm --filter=v4 registry:build
 - Example files should be placed directly in `examples/base`, `examples/radix` or `examples/aria`, not in subdirectories.
 - Examples import from `@/styles/<base>-nova/*`, where `<base>` is `base`, `radix` or `aria`. For example, radix examples import from `@/styles/radix-nova/*`.
 - Chat component examples (attachment, bubble, marker, message, message-scroller) import from `@/styles/<base>-rhea/*` instead.
-- The import style must match the `styleName` used in the MDX. Every style of a base resolves to the same `examples/<base>` file, so the imports decide what the preview renders while `styleName` decides which source `ComponentSource` shows. An example imported from `@/styles/base-rhea/*` must be referenced with `styleName="base-rhea"`.
+- The import style must match the `styleName` used in the MDX. Every style of a base resolves to the same `examples/<base>` file, so the imports decide what the preview renders while `styleName` decides which source `ComponentSource` shows. An example imported from `@/styles/base-nova/*` must be referenced with `styleName="base-rhea"`.
 - Both named exports and default exports are supported.
 - After adding or removing examples, run `pnpm --filter=v4 registry:build` to update the index.

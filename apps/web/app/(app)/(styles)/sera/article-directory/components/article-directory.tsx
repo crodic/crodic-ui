@@ -3,25 +3,25 @@
 import { cn } from "cn"
 import { ChevronLeftIcon, ChevronRightIcon, SearchIcon } from "lucide-react"
 
-import { Badge } from "@/styles/base-sera/ui/badge"
+import { Badge } from "@/styles/base-nova/ui/badge"
 import {
   Card,
   CardContent,
   CardFooter,
   CardHeader,
-} from "@/styles/base-sera/ui/card"
+} from "@/styles/base-nova/ui/card"
 import {
   InputGroup,
   InputGroupAddon,
   InputGroupInput,
-} from "@/styles/base-sera/ui/input-group"
+} from "@/styles/base-nova/ui/input-group"
 import {
   Pagination,
   PaginationContent,
   PaginationItem,
   PaginationLink,
-} from "@/styles/base-sera/ui/pagination"
-import { Progress, ProgressValue } from "@/styles/base-sera/ui/progress"
+} from "@/styles/base-nova/ui/pagination"
+import { Progress, ProgressValue } from "@/styles/base-nova/ui/progress"
 import {
   Table,
   TableBody,
@@ -29,7 +29,7 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from "@/styles/base-sera/ui/table"
+} from "@/styles/base-nova/ui/table"
 
 const ARTICLE_ROWS = [
   {

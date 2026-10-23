@@ -11,18 +11,18 @@ import {
 } from "lucide-react"
 
 import { Markdown } from "@/components/markdown"
-import { Bubble, BubbleContent } from "@/styles/radix-rhea/ui/bubble"
-import { Button } from "@/styles/radix-rhea/ui/button"
+import { Bubble, BubbleContent } from "@/styles/radix-nova/ui/bubble"
+import { Button } from "@/styles/radix-nova/ui/button"
 import {
   Message,
   MessageContent,
   MessageFooter,
-} from "@/styles/radix-rhea/ui/message"
+} from "@/styles/radix-nova/ui/message"
 import {
   Tooltip,
   TooltipContent,
   TooltipTrigger,
-} from "@/styles/radix-rhea/ui/tooltip"
+} from "@/styles/radix-nova/ui/tooltip"
 
 const reply = `Install Dialog, then open it from the gear button in \`site-header.tsx\`.
 

@@ -1,4 +1,4 @@
-import { Separator } from "@/styles/base-sera/ui/separator"
+import { Separator } from "@/styles/base-nova/ui/separator"
 
 import { AssetTable } from "./components/asset-table"
 import { FilterLibrary } from "./components/filter-library"

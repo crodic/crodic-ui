@@ -9,26 +9,26 @@ import {
   VideoIcon,
 } from "lucide-react"
 
-import { Badge } from "@/styles/base-sera/ui/badge"
-import { Button } from "@/styles/base-sera/ui/button"
+import { Badge } from "@/styles/base-nova/ui/badge"
+import { Button } from "@/styles/base-nova/ui/button"
 import {
   Card,
   CardContent,
   CardFooter,
   CardHeader,
-} from "@/styles/base-sera/ui/card"
-import { Checkbox } from "@/styles/base-sera/ui/checkbox"
+} from "@/styles/base-nova/ui/card"
+import { Checkbox } from "@/styles/base-nova/ui/checkbox"
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from "@/styles/base-sera/ui/dropdown-menu"
+} from "@/styles/base-nova/ui/dropdown-menu"
 import {
   InputGroup,
   InputGroupAddon,
   InputGroupInput,
-} from "@/styles/base-sera/ui/input-group"
+} from "@/styles/base-nova/ui/input-group"
 import {
   Pagination,
   PaginationContent,
@@ -36,7 +36,7 @@ import {
   PaginationLink,
   PaginationNext,
   PaginationPrevious,
-} from "@/styles/base-sera/ui/pagination"
+} from "@/styles/base-nova/ui/pagination"
 import {
   Table,
   TableBody,
@@ -44,7 +44,7 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from "@/styles/base-sera/ui/table"
+} from "@/styles/base-nova/ui/table"
 
 import { ASSETS, type AssetType } from "../../media-library/data"
 

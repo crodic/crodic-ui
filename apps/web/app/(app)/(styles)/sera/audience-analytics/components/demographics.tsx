@@ -3,7 +3,7 @@
 import * as React from "react"
 import { MoveRightIcon } from "lucide-react"
 
-import { Button } from "@/styles/base-sera/ui/button"
+import { Button } from "@/styles/base-nova/ui/button"
 import {
   Card,
   CardContent,
@@ -11,12 +11,12 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from "@/styles/base-sera/ui/card"
+} from "@/styles/base-nova/ui/card"
 import {
   Progress,
   ProgressLabel,
   ProgressValue,
-} from "@/styles/base-sera/ui/progress"
+} from "@/styles/base-nova/ui/progress"
 
 const DEMOGRAPHIC_DATA = [
   { age: "18 - 24", percentage: 22 },

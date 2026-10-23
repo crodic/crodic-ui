@@ -9,7 +9,7 @@ import {
   TraceIcon,
   TraceLine,
   TraceTitle,
-} from "@/styles/base-rhea/ui/trace"
+} from "@/styles/base-nova/ui/trace"
 
 const steps = [
   "Add a dark variant to the theme tokens",

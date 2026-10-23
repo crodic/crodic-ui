@@ -22,37 +22,37 @@ import {
   UndoIcon,
 } from "lucide-react"
 
-import { Button } from "@/styles/base-sera/ui/button"
+import { Button } from "@/styles/base-nova/ui/button"
 import {
   ButtonGroup,
   ButtonGroupSeparator,
-} from "@/styles/base-sera/ui/button-group"
+} from "@/styles/base-nova/ui/button-group"
 import {
   Card,
   CardContent,
   CardHeader,
   CardTitle,
-} from "@/styles/base-sera/ui/card"
-import { Checkbox } from "@/styles/base-sera/ui/checkbox"
+} from "@/styles/base-nova/ui/card"
+import { Checkbox } from "@/styles/base-nova/ui/checkbox"
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from "@/styles/base-sera/ui/dropdown-menu"
+} from "@/styles/base-nova/ui/dropdown-menu"
 import {
   Field,
   FieldGroup,
   FieldLabel,
   FieldLegend,
   FieldSet,
-} from "@/styles/base-sera/ui/field"
-import { Input } from "@/styles/base-sera/ui/input"
+} from "@/styles/base-nova/ui/field"
+import { Input } from "@/styles/base-nova/ui/input"
 import {
   Progress,
   ProgressLabel,
   ProgressValue,
-} from "@/styles/base-sera/ui/progress"
+} from "@/styles/base-nova/ui/progress"
 import {
   Select,
   SelectContent,
@@ -60,8 +60,8 @@ import {
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@/styles/base-sera/ui/select"
-import { Textarea } from "@/styles/base-sera/ui/textarea"
+} from "@/styles/base-nova/ui/select"
+import { Textarea } from "@/styles/base-nova/ui/textarea"
 
 type Milestone = {
   name: string

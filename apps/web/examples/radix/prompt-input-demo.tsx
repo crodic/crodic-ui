@@ -16,7 +16,7 @@ import {
   AttachmentContent,
   AttachmentMedia,
   AttachmentTitle,
-} from "@/styles/radix-rhea/ui/attachment"
+} from "@/styles/radix-nova/ui/attachment"
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -26,13 +26,13 @@ import {
   DropdownMenuRadioItem,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from "@/styles/radix-rhea/ui/dropdown-menu"
+} from "@/styles/radix-nova/ui/dropdown-menu"
 import {
   InputGroup,
   InputGroupAddon,
   InputGroupButton,
   InputGroupTextarea,
-} from "@/styles/radix-rhea/ui/input-group"
+} from "@/styles/radix-nova/ui/input-group"
 
 type AttachmentFile = {
   id: string

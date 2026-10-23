@@ -1,4 +1,4 @@
-import { CodeBlock, CodeBlockContent } from "@/styles/base-rhea/ui/code-block"
+import { CodeBlock, CodeBlockContent } from "@/styles/base-nova/ui/code-block"
 
 const output = `$ pnpm build
 > next build

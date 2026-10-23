@@ -18,7 +18,7 @@ import {
 } from "@/registry/bases/radix/ui/chart"
 import { Progress } from "@/registry/bases/radix/ui/progress"
 import { Separator } from "@/registry/bases/radix/ui/separator"
-import { useDesignSystemSearchParams } from "@/app/(app)/create/lib/search-params"
+import { useDesignSystemSearchParams } from "@/app/(create)/lib/search-params"
 
 const chartData = [
   { hour: "6a", usage: 1.2 },

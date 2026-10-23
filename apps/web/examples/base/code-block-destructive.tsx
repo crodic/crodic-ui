@@ -5,7 +5,7 @@ import {
   CodeBlockCopyButton,
   CodeBlockHeader,
   CodeBlockTitle,
-} from "@/styles/base-rhea/ui/code-block"
+} from "@/styles/base-nova/ui/code-block"
 
 const error = `TypeError: Cannot read properties of undefined (reading 'map')
     at MessageList (components/message-list.tsx:18:22)

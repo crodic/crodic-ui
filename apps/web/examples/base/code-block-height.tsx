@@ -5,7 +5,7 @@ import {
   CodeBlockCopyButton,
   CodeBlockHeader,
   CodeBlockTitle,
-} from "@/styles/base-rhea/ui/code-block"
+} from "@/styles/base-nova/ui/code-block"
 
 const logs = Array.from(
   { length: 40 },

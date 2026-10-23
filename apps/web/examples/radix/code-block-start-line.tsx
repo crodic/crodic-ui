@@ -7,7 +7,7 @@ import {
   CodeBlockHeader,
   CodeBlockLine,
   CodeBlockTitle,
-} from "@/styles/radix-rhea/ui/code-block"
+} from "@/styles/radix-nova/ui/code-block"
 
 const code = `  if (!session) {
     redirect("/login")

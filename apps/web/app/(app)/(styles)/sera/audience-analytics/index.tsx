@@ -1,4 +1,4 @@
-import { Separator } from "@/styles/base-sera/ui/separator"
+import { Separator } from "@/styles/base-nova/ui/separator"
 
 import { Demographics } from "./components/demographics"
 import { MetricsGrid } from "./components/metrics-grid"

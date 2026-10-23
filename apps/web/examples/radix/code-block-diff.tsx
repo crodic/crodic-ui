@@ -6,7 +6,7 @@ import {
   CodeBlockHeader,
   CodeBlockLine,
   CodeBlockTitle,
-} from "@/styles/radix-rhea/ui/code-block"
+} from "@/styles/radix-nova/ui/code-block"
 
 const patch = ` export function Greeting({ name }: { name: string }) {
 -  return <p>Hello, {name}</p>

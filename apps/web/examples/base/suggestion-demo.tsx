@@ -3,15 +3,15 @@
 import * as React from "react"
 import { ArrowUpIcon, PlusIcon } from "lucide-react"
 
-import { Bubble, BubbleContent } from "@/styles/base-rhea/ui/bubble"
-import { Button } from "@/styles/base-rhea/ui/button"
+import { Bubble, BubbleContent } from "@/styles/base-nova/ui/bubble"
+import { Button } from "@/styles/base-nova/ui/button"
 import {
   InputGroup,
   InputGroupAddon,
   InputGroupButton,
   InputGroupTextarea,
-} from "@/styles/base-rhea/ui/input-group"
-import { Message, MessageContent } from "@/styles/base-rhea/ui/message"
+} from "@/styles/base-nova/ui/input-group"
+import { Message, MessageContent } from "@/styles/base-nova/ui/message"
 
 const suggestions = [
   "Add a dark mode toggle",

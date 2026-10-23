@@ -1,4 +1,4 @@
-import { CodeBlock, CodeBlockContent } from "@/styles/radix-rhea/ui/code-block"
+import { CodeBlock, CodeBlockContent } from "@/styles/radix-nova/ui/code-block"
 
 const code = `{
   "name": "chat",

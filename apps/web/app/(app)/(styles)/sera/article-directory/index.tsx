@@ -1,4 +1,4 @@
-import { Separator } from "@/styles/base-sera/ui/separator"
+import { Separator } from "@/styles/base-nova/ui/separator"
 
 import { ArticleDirectory as ArticleDirectoryList } from "./components/article-directory"
 import { PreviewHeader } from "./components/preview-header"

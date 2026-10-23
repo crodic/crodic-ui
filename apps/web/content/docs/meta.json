@@ -1,17 +1,13 @@
 {
   "root": true,
   "pages": [
-    "components",
-    "ai-elements",
-    "(root)",
-    "changelog",
-    "react",
-    "helpers",
-    "forms",
     "installation",
+    "components",
+    "forms",
     "dark-mode",
     "rtl",
     "utils",
-    "registry"
+    "changelog",
+    "(root)"
   ]
 }

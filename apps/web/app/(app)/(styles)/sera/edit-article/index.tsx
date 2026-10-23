@@ -1,4 +1,4 @@
-import { Separator } from "@/styles/base-sera/ui/separator"
+import { Separator } from "@/styles/base-nova/ui/separator"
 
 import { EditorWorkspace } from "./components/editor-workspace"
 import { PreviewHeader } from "./components/preview-header"

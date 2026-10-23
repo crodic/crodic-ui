@@ -1,6 +1,6 @@
 import { TerminalIcon } from "lucide-react"
 
-import { CodeBlock, CodeBlockContent } from "@/styles/radix-rhea/ui/code-block"
+import { CodeBlock, CodeBlockContent } from "@/styles/radix-nova/ui/code-block"
 import {
   Trace,
   TraceCollapsible,
@@ -9,7 +9,7 @@ import {
   TraceIcon,
   TraceLine,
   TraceTitle,
-} from "@/styles/radix-rhea/ui/trace"
+} from "@/styles/radix-nova/ui/trace"
 
 const output = `$ node --version
 v24.18.0`

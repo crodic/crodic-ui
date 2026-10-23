@@ -10,7 +10,7 @@ import {
   YAxis,
 } from "recharts"
 
-import { Badge } from "@/styles/base-sera/ui/badge"
+import { Badge } from "@/styles/base-nova/ui/badge"
 import {
   Card,
   CardAction,
@@ -18,13 +18,13 @@ import {
   CardDescription,
   CardHeader,
   CardTitle,
-} from "@/styles/base-sera/ui/card"
+} from "@/styles/base-nova/ui/card"
 import {
   ChartContainer,
   ChartTooltip,
   ChartTooltipContent,
   type ChartConfig,
-} from "@/styles/base-sera/ui/chart"
+} from "@/styles/base-nova/ui/chart"
 
 const TRAFFIC_OVERVIEW_DATA = [
   { date: "2025-10-01", views: 2600, unique: 1600 },
